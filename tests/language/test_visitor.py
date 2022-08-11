@@ -4,7 +4,7 @@ from typing import cast, List, Optional
 
 from pytest import mark, raises
 
-from graphql.language import (
+from graphql3.language import (
     Node,
     FieldNode,
     NameNode,

@@ -2,9 +2,9 @@ from typing import Optional
 
 from pytest import mark
 
-from graphql.error import GraphQLSyntaxError
-from graphql.language import Lexer, Source, TokenKind
-from graphql.utilities import strip_ignored_characters
+from graphql3.error import GraphQLSyntaxError
+from graphql3.language import Lexer, Source, TokenKind
+from graphql3.utilities import strip_ignored_characters
 
 from ..utils import dedent, gen_fuzz_strings
 

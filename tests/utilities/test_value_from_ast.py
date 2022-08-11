@@ -1,9 +1,9 @@
 from math import isnan, nan
 from typing import Any, Dict, Optional
 
-from graphql.language import parse_value, ValueNode
-from graphql.pyutils import Undefined
-from graphql.type import (
+from graphql3.language import parse_value, ValueNode
+from graphql3.pyutils import Undefined
+from graphql3.type import (
     GraphQLBoolean,
     GraphQLEnumType,
     GraphQLFloat,
@@ -17,7 +17,7 @@ from graphql.type import (
     GraphQLScalarType,
     GraphQLString,
 )
-from graphql.utilities import value_from_ast
+from graphql3.utilities import value_from_ast
 
 
 def describe_value_from_ast():

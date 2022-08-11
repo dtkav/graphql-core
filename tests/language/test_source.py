@@ -4,7 +4,7 @@ from typing import cast, Tuple
 
 from pytest import raises
 
-from graphql.language import Source, SourceLocation
+from graphql3.language import Source, SourceLocation
 
 from ..utils import dedent
 

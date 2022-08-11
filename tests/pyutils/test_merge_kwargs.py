@@ -1,4 +1,4 @@
-from graphql.pyutils import merge_kwargs
+from graphql3.pyutils import merge_kwargs
 
 try:
     from typing import TypedDict

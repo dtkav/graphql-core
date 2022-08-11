@@ -1,6 +1,6 @@
 from typing import cast, Collection, Optional
 
-from graphql.language.block_string import (
+from graphql3.language.block_string import (
     is_printable_as_block_string,
     dedent_block_string_lines,
     print_block_string,

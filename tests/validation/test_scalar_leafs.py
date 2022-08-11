@@ -1,6 +1,6 @@
 from functools import partial
 
-from graphql.validation import ScalarLeafsRule
+from graphql3.validation import ScalarLeafsRule
 
 from .harness import assert_validation_errors
 

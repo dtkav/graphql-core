@@ -1,6 +1,6 @@
 from typing import Any
 
-from graphql import graphql_sync
+from graphql3 import graphql_sync
 
 from .star_wars_schema import star_wars_schema
 

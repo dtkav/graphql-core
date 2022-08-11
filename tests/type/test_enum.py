@@ -2,8 +2,8 @@ from datetime import datetime
 from enum import Enum
 from typing import Any, Dict, Optional
 
-from graphql import graphql_sync
-from graphql.type import (
+from graphql3 import graphql_sync
+from graphql3.type import (
     GraphQLArgument,
     GraphQLBoolean,
     GraphQLEnumType,
@@ -14,7 +14,7 @@ from graphql.type import (
     GraphQLSchema,
     GraphQLString,
 )
-from graphql.utilities import introspection_from_schema
+from graphql3.utilities import introspection_from_schema
 
 ColorType = GraphQLEnumType("Color", values={"RED": 0, "GREEN": 1, "BLUE": 2})
 

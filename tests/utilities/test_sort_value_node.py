@@ -1,5 +1,5 @@
-from graphql.language import parse_value, print_ast
-from graphql.utilities.sort_value_node import sort_value_node
+from graphql3.language import parse_value, print_ast
+from graphql3.utilities.sort_value_node import sort_value_node
 
 
 def describe_sort_value_node():

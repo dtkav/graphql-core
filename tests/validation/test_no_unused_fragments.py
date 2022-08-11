@@ -1,6 +1,6 @@
 from functools import partial
 
-from graphql.validation import NoUnusedFragmentsRule
+from graphql3.validation import NoUnusedFragmentsRule
 
 from .harness import assert_validation_errors
 

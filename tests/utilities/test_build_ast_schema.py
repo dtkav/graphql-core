@@ -3,9 +3,9 @@ from typing import Union
 
 from pytest import mark, raises
 
-from graphql import graphql_sync
-from graphql.language import parse, print_ast, DocumentNode, InterfaceTypeDefinitionNode
-from graphql.type import (
+from graphql3 import graphql_sync
+from graphql3.language import parse, print_ast, DocumentNode, InterfaceTypeDefinitionNode
+from graphql3.type import (
     GraphQLDeprecatedDirective,
     GraphQLIncludeDirective,
     GraphQLSchema,
@@ -32,7 +32,7 @@ from graphql.type import (
     introspection_types,
     validate_schema,
 )
-from graphql.utilities import build_ast_schema, build_schema, print_schema, print_type
+from graphql3.utilities import build_ast_schema, build_schema, print_schema, print_type
 
 from ..fixtures import big_schema_sdl  # noqa: F401
 from ..utils import dedent

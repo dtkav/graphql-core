@@ -4,8 +4,8 @@ from typing import cast, Dict
 
 from pytest import mark, raises
 
-from graphql.error import GraphQLError
-from graphql.language import (
+from graphql3.error import GraphQLError
+from graphql3.language import (
     parse_value,
     EnumTypeDefinitionNode,
     EnumTypeExtensionNode,
@@ -27,8 +27,8 @@ from graphql.language import (
     UnionTypeDefinitionNode,
     UnionTypeExtensionNode,
 )
-from graphql.pyutils import Undefined
-from graphql.type import (
+from graphql3.pyutils import Undefined
+from graphql3.type import (
     GraphQLArgument,
     GraphQLEnumValue,
     GraphQLEnumType,

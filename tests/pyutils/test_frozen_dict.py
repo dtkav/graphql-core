@@ -2,7 +2,7 @@ from copy import copy, deepcopy
 
 from pytest import raises
 
-from graphql.pyutils import FrozenError, FrozenDict
+from graphql3.pyutils import FrozenError, FrozenDict
 
 
 def describe_frozen_list():

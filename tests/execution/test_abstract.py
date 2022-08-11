@@ -3,9 +3,9 @@ from typing import Any, NamedTuple, Optional
 
 from pytest import mark
 
-from graphql.execution import execute, execute_sync, ExecutionResult
-from graphql.language import parse
-from graphql.type import (
+from graphql3.execution import execute, execute_sync, ExecutionResult
+from graphql3.language import parse
+from graphql3.type import (
     GraphQLBoolean,
     GraphQLField,
     GraphQLInterfaceType,
@@ -15,7 +15,7 @@ from graphql.type import (
     GraphQLString,
     GraphQLUnionType,
 )
-from graphql.utilities import build_schema
+from graphql3.utilities import build_schema
 
 
 def sync_and_async(spec):

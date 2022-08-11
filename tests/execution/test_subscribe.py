@@ -4,9 +4,9 @@ from typing import Any, Dict, List, Callable
 
 from pytest import mark, raises
 
-from graphql.language import parse
-from graphql.pyutils import SimplePubSub
-from graphql.type import (
+from graphql3.language import parse
+from graphql3.pyutils import SimplePubSub
+from graphql3.type import (
     GraphQLArgument,
     GraphQLBoolean,
     GraphQLField,
@@ -16,7 +16,7 @@ from graphql.type import (
     GraphQLSchema,
     GraphQLString,
 )
-from graphql.execution import create_source_event_stream, subscribe, MapAsyncIterator
+from graphql3.execution import create_source_event_stream, subscribe, MapAsyncIterator
 
 try:
     anext

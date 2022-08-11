@@ -3,7 +3,7 @@ from inspect import isawaitable
 
 from pytest import mark, raises
 
-from graphql.pyutils import SimplePubSub
+from graphql3.pyutils import SimplePubSub
 
 
 def describe_simple_pub_sub():

@@ -1,11 +1,11 @@
-from graphql.type import (
+from graphql3.type import (
     GraphQLSchema,
     GraphQLDeprecatedDirective,
     GraphQLIncludeDirective,
     GraphQLSkipDirective,
     GraphQLSpecifiedByDirective,
 )
-from graphql.utilities import (
+from graphql3.utilities import (
     BreakingChangeType,
     DangerousChangeType,
     build_schema,

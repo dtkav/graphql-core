@@ -1,5 +1,5 @@
-from graphql import graphql_sync
-from graphql.utilities import get_introspection_query, build_schema
+from graphql3 import graphql_sync
+from graphql3.utilities import get_introspection_query, build_schema
 
 
 def describe_introspection():

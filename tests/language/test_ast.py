@@ -1,8 +1,8 @@
 from copy import copy, deepcopy
 import weakref
 
-from graphql.language import Location, Node, Source, Token, TokenKind
-from graphql.pyutils import inspect
+from graphql3.language import Location, Node, Source, Token, TokenKind
+from graphql3.pyutils import inspect
 
 
 class SampleTestNode(Node):

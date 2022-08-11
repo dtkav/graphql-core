@@ -1,8 +1,8 @@
 from functools import partial
 
-from graphql.utilities import build_schema
-from graphql.validation import KnownArgumentNamesRule
-from graphql.validation.rules.known_argument_names import (
+from graphql3.utilities import build_schema
+from graphql3.validation import KnownArgumentNamesRule
+from graphql3.validation.rules.known_argument_names import (
     KnownArgumentNamesOnDirectivesRule,
 )
 

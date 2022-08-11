@@ -3,10 +3,10 @@ from typing import Any, Awaitable, cast
 
 from pytest import mark
 
-from graphql.execution import execute, execute_sync, ExecutionResult
-from graphql.language import parse
-from graphql.pyutils import AwaitableOrValue
-from graphql.type import (
+from graphql3.execution import execute, execute_sync, ExecutionResult
+from graphql3.language import parse
+from graphql3.pyutils import AwaitableOrValue
+from graphql3.type import (
     GraphQLArgument,
     GraphQLField,
     GraphQLNonNull,
@@ -14,7 +14,7 @@ from graphql.type import (
     GraphQLSchema,
     GraphQLString,
 )
-from graphql.utilities import build_schema
+from graphql3.utilities import build_schema
 
 sync_error = RuntimeError("sync")
 sync_non_null_error = RuntimeError("syncNonNull")

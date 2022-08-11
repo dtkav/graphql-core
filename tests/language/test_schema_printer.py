@@ -2,7 +2,7 @@ from copy import deepcopy
 
 from pytest import raises
 
-from graphql.language import ScalarTypeDefinitionNode, NameNode, print_ast, parse
+from graphql3.language import ScalarTypeDefinitionNode, NameNode, print_ast, parse
 
 from ..fixtures import kitchen_sink_sdl  # noqa: F401
 from ..utils import dedent

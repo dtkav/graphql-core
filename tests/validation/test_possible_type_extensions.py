@@ -1,7 +1,7 @@
 from functools import partial
 
-from graphql.utilities import build_schema
-from graphql.validation.rules.possible_type_extensions import PossibleTypeExtensionsRule
+from graphql3.utilities import build_schema
+from graphql3.validation.rules.possible_type_extensions import PossibleTypeExtensionsRule
 
 from .harness import assert_sdl_validation_errors
 

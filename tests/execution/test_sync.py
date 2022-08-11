@@ -3,11 +3,11 @@ from inspect import isawaitable
 
 from pytest import mark, raises
 
-from graphql import graphql_sync
-from graphql.execution import execute, execute_sync
-from graphql.language import parse
-from graphql.type import GraphQLField, GraphQLObjectType, GraphQLSchema, GraphQLString
-from graphql.validation import validate
+from graphql3 import graphql_sync
+from graphql3.execution import execute, execute_sync
+from graphql3.language import parse
+from graphql3.type import GraphQLField, GraphQLObjectType, GraphQLSchema, GraphQLString
+from graphql3.validation import validate
 
 
 def describe_execute_synchronously_when_possible():

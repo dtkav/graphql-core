@@ -1,4 +1,4 @@
-from graphql.pyutils import group_by
+from graphql3.pyutils import group_by
 
 
 def describe_group_by():

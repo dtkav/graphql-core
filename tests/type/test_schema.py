@@ -2,14 +2,14 @@ from copy import deepcopy
 
 from pytest import raises
 
-from graphql.language import (
+from graphql3.language import (
     DirectiveLocation,
     SchemaDefinitionNode,
     SchemaExtensionNode,
     TypeDefinitionNode,
     TypeExtensionNode,
 )
-from graphql.type import (
+from graphql3.type import (
     GraphQLArgument,
     GraphQLBoolean,
     GraphQLDirective,
@@ -27,7 +27,7 @@ from graphql.type import (
     GraphQLType,
     specified_directives,
 )
-from graphql.utilities import build_schema, lexicographic_sort_schema, print_schema
+from graphql3.utilities import build_schema, lexicographic_sort_schema, print_schema
 
 from ..utils import dedent
 

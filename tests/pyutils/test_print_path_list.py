@@ -1,4 +1,4 @@
-from graphql.pyutils import print_path_list
+from graphql3.pyutils import print_path_list
 
 
 def describe_print_path_as_list():

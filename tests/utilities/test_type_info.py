@@ -1,4 +1,4 @@
-from graphql.language import (
+from graphql3.language import (
     FieldNode,
     NameNode,
     Node,
@@ -10,8 +10,8 @@ from graphql.language import (
     visit,
     Visitor,
 )
-from graphql.type import GraphQLSchema, get_named_type, is_composite_type
-from graphql.utilities import TypeInfo, TypeInfoVisitor, build_schema
+from graphql3.type import GraphQLSchema, get_named_type, is_composite_type
+from graphql3.utilities import TypeInfo, TypeInfoVisitor, build_schema
 
 from ..fixtures import kitchen_sink_query  # noqa: F401
 

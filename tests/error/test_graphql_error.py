@@ -2,8 +2,8 @@ from typing import cast, List, Union
 
 from pytest import raises
 
-from graphql.error import GraphQLError
-from graphql.language import (
+from graphql3.error import GraphQLError
+from graphql3.language import (
     parse,
     Node,
     OperationDefinitionNode,
@@ -275,7 +275,7 @@ def describe_graphql_error():
 def describe_to_string():
     def deprecated_prints_an_error_using_print_error():
         # noinspection PyProtectedMember
-        from graphql.error.graphql_error import print_error
+        from graphql3.error.graphql_error import print_error
 
         error = GraphQLError("Error")
         assert print_error(error) == "Error"
@@ -355,7 +355,7 @@ def describe_to_string():
 def describe_formatted():
     def deprecated_formats_an_error_using_format_error():
         # noinspection PyProtectedMember
-        from graphql.error.graphql_error import format_error
+        from graphql3.error.graphql_error import format_error
 
         error = GraphQLError("Example Error")
         assert format_error(error) == {

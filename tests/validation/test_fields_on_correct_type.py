@@ -1,9 +1,9 @@
 from functools import partial
 
-from graphql.language import parse
-from graphql.type import GraphQLSchema
-from graphql.utilities import build_schema
-from graphql.validation import validate, FieldsOnCorrectTypeRule
+from graphql3.language import parse
+from graphql3.type import GraphQLSchema
+from graphql3.utilities import build_schema
+from graphql3.validation import validate, FieldsOnCorrectTypeRule
 
 from .harness import assert_validation_errors
 

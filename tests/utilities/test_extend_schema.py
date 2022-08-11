@@ -2,9 +2,9 @@ from typing import Union
 
 from pytest import raises
 
-from graphql import graphql_sync
-from graphql.language import parse, print_ast
-from graphql.type import (
+from graphql3 import graphql_sync
+from graphql3.language import parse, print_ast
+from graphql3.type import (
     GraphQLArgument,
     GraphQLBoolean,
     GraphQLEnumValue,
@@ -25,7 +25,7 @@ from graphql.type import (
     assert_union_type,
     validate_schema,
 )
-from graphql.utilities import (
+from graphql3.utilities import (
     build_schema,
     concat_ast,
     extend_schema,

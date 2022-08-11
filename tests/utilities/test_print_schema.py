@@ -1,7 +1,7 @@
 from typing import cast, Any, Dict
 
-from graphql.language import DirectiveLocation
-from graphql.type import (
+from graphql3.language import DirectiveLocation
+from graphql3.type import (
     GraphQLArgument,
     GraphQLBoolean,
     GraphQLEnumType,
@@ -20,7 +20,7 @@ from graphql.type import (
     GraphQLInputField,
     GraphQLDirective,
 )
-from graphql.utilities import (
+from graphql3.utilities import (
     build_schema,
     print_schema,
     print_introspection_schema,

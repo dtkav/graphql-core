@@ -3,8 +3,8 @@ from typing import List, Optional, Tuple
 
 from pytest import raises
 
-from graphql.error import GraphQLSyntaxError
-from graphql.language import (
+from graphql3.error import GraphQLSyntaxError
+from graphql3.language import (
     ArgumentNode,
     BooleanValueNode,
     DirectiveDefinitionNode,

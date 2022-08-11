@@ -17,7 +17,7 @@ except ImportError:  # Python < 3.7
 
 from pytest import fixture, mark
 
-from graphql import (
+from graphql3 import (
     graphql,
     parse,
     subscribe,
@@ -35,8 +35,8 @@ from graphql import (
     GraphQLString,
 )
 
-from graphql.pyutils import SimplePubSub, SimplePubSubIterator
-from graphql.execution.map_async_iterator import MapAsyncIterator
+from graphql333.pyutils import SimplePubSub, SimplePubSubIterator
+from graphql333.execution.map_async_iterator import MapAsyncIterator
 
 
 class User(NamedTuple):

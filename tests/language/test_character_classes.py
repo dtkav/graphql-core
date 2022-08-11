@@ -1,6 +1,6 @@
 from string import ascii_letters as letters, digits, punctuation
 
-from graphql.language.character_classes import (
+from graphql3.language.character_classes import (
     is_digit,
     is_letter,
     is_name_start,

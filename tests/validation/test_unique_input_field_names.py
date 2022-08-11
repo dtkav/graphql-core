@@ -1,6 +1,6 @@
 from functools import partial
 
-from graphql.validation import UniqueInputFieldNamesRule
+from graphql3.validation import UniqueInputFieldNamesRule
 
 from .harness import assert_validation_errors
 

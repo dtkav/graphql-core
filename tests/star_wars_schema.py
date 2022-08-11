@@ -42,7 +42,7 @@ is::
     }
 """
 
-from graphql.type import (
+from graphql333.type import (
     GraphQLArgument,
     GraphQLEnumType,
     GraphQLEnumValue,

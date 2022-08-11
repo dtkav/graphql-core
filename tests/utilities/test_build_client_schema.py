@@ -2,8 +2,8 @@ from typing import cast
 
 from pytest import raises
 
-from graphql import graphql_sync
-from graphql.type import (
+from graphql3 import graphql_sync
+from graphql3.type import (
     GraphQLArgument,
     GraphQLBoolean,
     GraphQLEnumType,
@@ -17,13 +17,13 @@ from graphql.type import (
     GraphQLString,
     assert_enum_type,
 )
-from graphql.utilities import (
+from graphql3.utilities import (
     build_schema,
     build_client_schema,
     introspection_from_schema,
     print_schema,
 )
-from graphql.utilities.get_introspection_query import (
+from graphql3.utilities.get_introspection_query import (
     IntrospectionEnumType,
     IntrospectionInputObjectType,
     IntrospectionInterfaceType,

@@ -1,6 +1,6 @@
 from functools import partial
 
-from graphql.validation import LoneAnonymousOperationRule
+from graphql3.validation import LoneAnonymousOperationRule
 
 from .harness import assert_validation_errors
 

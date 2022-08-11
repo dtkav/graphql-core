@@ -1,6 +1,6 @@
 from functools import partial
 
-from graphql.validation.rules.unique_argument_definition_names import (
+from graphql3.validation.rules.unique_argument_definition_names import (
     UniqueArgumentDefinitionNamesRule,
 )
 

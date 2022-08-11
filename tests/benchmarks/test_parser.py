@@ -1,4 +1,4 @@
-from graphql import parse, DocumentNode
+from graphql3 import parse, DocumentNode
 
 from ..fixtures import kitchen_sink_query  # noqa: F401
 

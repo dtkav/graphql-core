@@ -1,4 +1,4 @@
-from graphql.language.print_string import print_string
+from graphql3.language.print_string import print_string
 
 
 def describe_print_string():

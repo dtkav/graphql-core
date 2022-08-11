@@ -1,6 +1,6 @@
 from pytest import mark
 
-from graphql import graphql, graphql_sync
+from graphql3 import graphql, graphql_sync
 
 from .star_wars_schema import star_wars_schema as schema
 

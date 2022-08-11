@@ -2,7 +2,7 @@ from typing import Any, Dict, cast
 
 from pytest import mark, param, raises
 
-from graphql.type import (
+from graphql3.type import (
     GraphQLArgument,
     GraphQLDirective,
     GraphQLEnumType,

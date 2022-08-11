@@ -1,6 +1,6 @@
 from typing import List
 
-from graphql.pyutils import suggestion_list
+from graphql3.pyutils import suggestion_list
 
 
 def expect_suggestions(input_: str, options: List[str], expected: List[str]) -> None:

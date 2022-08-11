@@ -5,8 +5,8 @@ from typing import Any, Dict, FrozenSet, List, Set, Tuple
 
 from pytest import mark
 
-from graphql.pyutils import inspect, Undefined
-from graphql.type import (
+from graphql3.pyutils import inspect, Undefined
+from graphql3.type import (
     GraphQLDirective,
     GraphQLField,
     GraphQLInt,

@@ -1,6 +1,6 @@
 from functools import partial
 
-from graphql.validation import FragmentsOnCompositeTypesRule
+from graphql3.validation import FragmentsOnCompositeTypesRule
 
 from .harness import assert_validation_errors
 

@@ -1,11 +1,11 @@
 from math import isfinite
 from typing import Any, Dict, NamedTuple
 
-from graphql import graphql_sync
-from graphql.error import GraphQLError
-from graphql.language import ValueNode
-from graphql.pyutils import inspect
-from graphql.type import (
+from graphql3 import graphql_sync
+from graphql3.error import GraphQLError
+from graphql3.language import ValueNode
+from graphql3.pyutils import inspect
+from graphql3.type import (
     GraphQLArgument,
     GraphQLField,
     GraphQLFloat,
@@ -13,7 +13,7 @@ from graphql.type import (
     GraphQLScalarType,
     GraphQLSchema,
 )
-from graphql.utilities import value_from_ast_untyped
+from graphql3.utilities import value_from_ast_untyped
 
 # this test is not (yet) part of GraphQL.js, see
 # https://github.com/graphql/graphql-js/issues/2657

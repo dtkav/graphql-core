@@ -1,7 +1,7 @@
 from operator import attrgetter
 from typing import Callable
 
-from graphql.language import (
+from graphql3.language import (
     ast,
     Node,
     parse_value,

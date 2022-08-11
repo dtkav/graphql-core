@@ -2,8 +2,8 @@ from math import inf, nan
 
 from pytest import raises
 
-from graphql.error import GraphQLError
-from graphql.language import (
+from graphql3.error import GraphQLError
+from graphql3.language import (
     BooleanValueNode,
     EnumValueNode,
     FloatValueNode,
@@ -15,8 +15,8 @@ from graphql.language import (
     ObjectValueNode,
     StringValueNode,
 )
-from graphql.pyutils import Undefined
-from graphql.type import (
+from graphql3.pyutils import Undefined
+from graphql3.type import (
     GraphQLBoolean,
     GraphQLEnumType,
     GraphQLFloat,
@@ -29,7 +29,7 @@ from graphql.type import (
     GraphQLScalarType,
     GraphQLString,
 )
-from graphql.utilities import ast_from_value
+from graphql3.utilities import ast_from_value
 
 
 def describe_ast_from_value():

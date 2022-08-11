@@ -1,4 +1,4 @@
-from graphql.type import (
+from graphql3.type import (
     GraphQLField,
     GraphQLFloat,
     GraphQLInt,
@@ -11,7 +11,7 @@ from graphql.type import (
     GraphQLString,
     GraphQLUnionType,
 )
-from graphql.utilities import is_equal_type, is_type_sub_type_of
+from graphql3.utilities import is_equal_type, is_type_sub_type_of
 
 
 def describe_type_comparators():

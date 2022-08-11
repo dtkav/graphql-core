@@ -1,5 +1,5 @@
 from functools import partial
-from graphql.validation import UniqueArgumentNamesRule
+from graphql3.validation import UniqueArgumentNamesRule
 
 from .harness import assert_validation_errors
 

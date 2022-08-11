@@ -3,9 +3,9 @@ from typing import Awaitable
 
 from pytest import mark
 
-from graphql.execution import execute, execute_sync
-from graphql.language import parse
-from graphql.type import (
+from graphql3.execution import execute, execute_sync
+from graphql3.language import parse
+from graphql3.type import (
     GraphQLArgument,
     GraphQLField,
     GraphQLInt,

@@ -1,4 +1,4 @@
-from graphql import build_schema, parse, validate
+from graphql3 import build_schema, parse, validate
 
 from ..fixtures import big_schema_sdl  # noqa: F401
 

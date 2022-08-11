@@ -1,11 +1,11 @@
 from typing import List, Optional, Type
 
-from graphql.error import GraphQLError
-from graphql.language import parse
-from graphql.type import GraphQLSchema
-from graphql.utilities import build_schema
-from graphql.validation import ValidationRule, SDLValidationRule
-from graphql.validation.validate import validate, validate_sdl
+from graphql3.error import GraphQLError
+from graphql3.language import parse
+from graphql3.type import GraphQLSchema
+from graphql3.utilities import build_schema
+from graphql3.validation import ValidationRule, SDLValidationRule
+from graphql3.validation.validate import validate, validate_sdl
 
 __all__ = [
     "test_schema",

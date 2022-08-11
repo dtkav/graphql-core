@@ -1,6 +1,6 @@
-from graphql.execution import execute_sync
-from graphql.language import parse
-from graphql.type import (
+from graphql3.execution import execute_sync
+from graphql3.language import parse
+from graphql3.type import (
     GraphQLArgument,
     GraphQLBoolean,
     GraphQLField,

@@ -1,4 +1,4 @@
-from graphql.pyutils import did_you_mean
+from graphql3.pyutils import did_you_mean
 
 
 def describe_did_you_mean():

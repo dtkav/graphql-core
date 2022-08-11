@@ -2,10 +2,10 @@ from typing import cast, Any, Awaitable
 
 from pytest import mark
 
-from graphql.execution import execute, execute_sync, ExecutionResult
-from graphql.language import parse
-from graphql.pyutils import is_awaitable
-from graphql.utilities import build_schema
+from graphql3.execution import execute, execute_sync, ExecutionResult
+from graphql3.language import parse
+from graphql3.pyutils import is_awaitable
+from graphql3.utilities import build_schema
 
 
 class Data:

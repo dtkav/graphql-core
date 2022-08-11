@@ -2,8 +2,8 @@ from typing import Any
 
 from pytest import raises
 
-from graphql.language import DirectiveLocation
-from graphql.type import (
+from graphql3.language import DirectiveLocation
+from graphql3.type import (
     GraphQLArgument,
     GraphQLDeprecatedDirective,
     GraphQLBoolean,

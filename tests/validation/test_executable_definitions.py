@@ -1,6 +1,6 @@
 from functools import partial
 
-from graphql.validation import ExecutableDefinitionsRule
+from graphql3.validation import ExecutableDefinitionsRule
 
 from .harness import assert_validation_errors
 

@@ -1,7 +1,7 @@
 from functools import partial
 
-from graphql.utilities import build_schema
-from graphql.validation import PossibleFragmentSpreadsRule
+from graphql3.utilities import build_schema
+from graphql3.validation import PossibleFragmentSpreadsRule
 
 from .harness import assert_validation_errors
 

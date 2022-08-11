@@ -1,7 +1,7 @@
 from functools import partial
 
-from graphql.pyutils import Undefined, inspect
-from graphql.type import (
+from graphql3.pyutils import Undefined, inspect
+from graphql3.type import (
     GraphQLArgument,
     GraphQLField,
     GraphQLObjectType,
@@ -9,7 +9,7 @@ from graphql.type import (
     GraphQLScalarType,
     GraphQLString,
 )
-from graphql.validation import ValuesOfCorrectTypeRule
+from graphql3.validation import ValuesOfCorrectTypeRule
 
 from .harness import assert_validation_errors
 

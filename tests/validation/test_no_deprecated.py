@@ -1,8 +1,8 @@
 from functools import partial
 from typing import Callable, List, Tuple
 
-from graphql.utilities import build_schema
-from graphql.validation import NoDeprecatedCustomRule
+from graphql3.utilities import build_schema
+from graphql3.validation import NoDeprecatedCustomRule
 
 from .harness import assert_validation_errors
 

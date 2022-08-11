@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "graphql-core"
+name = "dtkav-graphql-core"
 version = "3.2.1"
 description = """
 GraphQL-core is a Python port of GraphQL.js,
@@ -25,7 +25,7 @@ classifiers = [
     "Programming Language :: Python :: 3.10"
 ]
 packages = [
-    { include = "graphql", from = "src" },
+    { include = "graphql3", from = "src" },
     { include = "tests", format = "sdist" },
     { include = "docs", format = "sdist" },
     { include = '.bumpversion.cfg', format = "sdist" },

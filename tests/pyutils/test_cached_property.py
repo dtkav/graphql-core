@@ -1,4 +1,4 @@
-from graphql.pyutils import cached_property
+from graphql3.pyutils import cached_property
 
 
 def describe_cached_property():

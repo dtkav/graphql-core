@@ -3,8 +3,8 @@ from typing import cast
 
 from pytest import raises
 
-from graphql import graphql_sync
-from graphql.type import (
+from graphql3 import graphql_sync
+from graphql3.type import (
     GraphQLArgument,
     GraphQLDirective,
     GraphQLEnumValue,
@@ -15,13 +15,13 @@ from graphql.type import (
     GraphQLSchema,
     GraphQLString,
 )
-from graphql.pyutils import (
+from graphql3.pyutils import (
     Description,
     is_description,
     register_description,
     unregister_description,
 )
-from graphql.utilities import get_introspection_query, print_schema
+from graphql3.utilities import get_introspection_query, print_schema
 
 from ..utils import dedent
 

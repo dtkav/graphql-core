@@ -1,4 +1,4 @@
-from graphql.pyutils import identity_func, Undefined
+from graphql3.pyutils import identity_func, Undefined
 
 
 def describe_identity_func():

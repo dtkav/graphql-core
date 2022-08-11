@@ -1,6 +1,6 @@
 from functools import partial
 
-from graphql.validation import VariablesInAllowedPositionRule
+from graphql3.validation import VariablesInAllowedPositionRule
 
 from .harness import assert_validation_errors
 

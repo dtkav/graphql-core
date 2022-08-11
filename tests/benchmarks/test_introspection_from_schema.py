@@ -1,5 +1,5 @@
-from graphql import build_schema, parse, execute_sync
-from graphql.utilities import get_introspection_query
+from graphql3 import build_schema, parse, execute_sync
+from graphql3.utilities import get_introspection_query
 
 from ..fixtures import big_schema_sdl  # noqa: F401
 

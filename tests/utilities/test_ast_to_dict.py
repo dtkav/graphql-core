@@ -1,5 +1,5 @@
-from graphql.language import parse, FieldNode, NameNode, OperationType, SelectionSetNode
-from graphql.utilities import ast_to_dict
+from graphql3.language import parse, FieldNode, NameNode, OperationType, SelectionSetNode
+from graphql3.utilities import ast_to_dict
 
 
 def describe_ast_to_disc():

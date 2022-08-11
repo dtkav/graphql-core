@@ -1,4 +1,4 @@
-from graphql import SourceLocation
+from graphql3 import SourceLocation
 
 
 def describe_source_location():

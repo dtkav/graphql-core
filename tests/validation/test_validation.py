@@ -1,9 +1,9 @@
 from pytest import raises
 
-from graphql.error import GraphQLError
-from graphql.language import parse
-from graphql.utilities import TypeInfo, build_schema
-from graphql.validation import ValidationRule, validate
+from graphql3.error import GraphQLError
+from graphql3.language import parse
+from graphql3.utilities import TypeInfo, build_schema
+from graphql3.validation import ValidationRule, validate
 
 from .harness import test_schema
 

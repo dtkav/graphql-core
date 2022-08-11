@@ -1,11 +1,11 @@
 from math import nan
 from typing import Any, Dict, Optional
 
-from graphql.execution import execute_sync, ExecutionResult
-from graphql.execution.values import get_variable_values
-from graphql.language import parse, OperationDefinitionNode, StringValueNode, ValueNode
-from graphql.pyutils import Undefined
-from graphql.type import (
+from graphql3.execution import execute_sync, ExecutionResult
+from graphql3.execution.values import get_variable_values
+from graphql3.language import parse, OperationDefinitionNode, StringValueNode, ValueNode
+from graphql3.pyutils import Undefined
+from graphql3.type import (
     GraphQLArgument,
     GraphQLEnumType,
     GraphQLEnumValue,
@@ -473,7 +473,7 @@ def describe_execute_handles_inputs():
                     "NaN": "nan",
                     "false": "False",
                     "customValue": "'custom value'",
-                    # different from graphql.js, enum values are always wrapped
+                    # different from graphql3.js, enum values are always wrapped
                     "defaultValue": "None",
                 },
                 None,

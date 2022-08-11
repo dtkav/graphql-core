@@ -3,9 +3,9 @@ from typing import Any, List, Union
 
 from pytest import mark, raises
 
-from graphql.language import parse, DirectiveLocation
-from graphql.pyutils import inspect
-from graphql.type import (
+from graphql3.language import parse, DirectiveLocation
+from graphql3.pyutils import inspect
+from graphql3.type import (
     assert_directive,
     assert_enum_type,
     assert_input_object_type,
@@ -35,7 +35,7 @@ from graphql.type import (
     GraphQLString,
     GraphQLUnionType,
 )
-from graphql.utilities import build_schema, extend_schema
+from graphql3.utilities import build_schema, extend_schema
 
 from ..utils import dedent
 

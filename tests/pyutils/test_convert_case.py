@@ -1,4 +1,4 @@
-from graphql.pyutils import camel_to_snake, snake_to_camel
+from graphql3.pyutils import camel_to_snake, snake_to_camel
 
 
 def describe_camel_to_snake():

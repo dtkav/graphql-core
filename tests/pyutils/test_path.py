@@ -1,4 +1,4 @@
-from graphql.pyutils import Path
+from graphql3.pyutils import Path
 
 
 def describe_path():

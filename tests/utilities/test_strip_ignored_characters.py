@@ -3,9 +3,9 @@ from typing import Optional
 
 from pytest import raises
 
-from graphql.error import GraphQLSyntaxError
-from graphql.language import Lexer, Source, TokenKind, parse
-from graphql.utilities import strip_ignored_characters
+from graphql3.error import GraphQLSyntaxError
+from graphql3.language import Lexer, Source, TokenKind, parse
+from graphql3.utilities import strip_ignored_characters
 
 from ..fixtures import kitchen_sink_query, kitchen_sink_sdl  # noqa: F401
 from ..utils import dedent

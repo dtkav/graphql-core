@@ -1,4 +1,4 @@
-from graphql.pyutils import Undefined
+from graphql3.pyutils import Undefined
 
 
 def describe_invalid():

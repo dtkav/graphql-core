@@ -3,7 +3,7 @@ from collections import defaultdict, namedtuple
 from decimal import Decimal
 from itertools import count
 
-from graphql.pyutils import FrozenDict, FrozenList, is_collection, is_iterable
+from graphql3.pyutils import FrozenDict, FrozenList, is_collection, is_iterable
 
 
 def describe_is_collection():

@@ -2,7 +2,7 @@ from copy import deepcopy
 
 from pytest import raises
 
-from graphql.language import FieldNode, NameNode, parse, print_ast
+from graphql3.language import FieldNode, NameNode, parse, print_ast
 
 from ..fixtures import kitchen_sink_query  # noqa: F401
 from ..utils import dedent

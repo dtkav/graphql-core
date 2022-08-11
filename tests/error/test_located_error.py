@@ -1,6 +1,6 @@
 from typing import cast, Any
 
-from graphql.error import GraphQLError, located_error
+from graphql3.error import GraphQLError, located_error
 
 
 def describe_located_error():

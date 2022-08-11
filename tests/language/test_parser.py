@@ -2,8 +2,8 @@ from typing import cast, Optional, Tuple
 
 from pytest import raises
 
-from graphql.error import GraphQLSyntaxError
-from graphql.language import (
+from graphql3.error import GraphQLSyntaxError
+from graphql3.language import (
     ArgumentNode,
     DefinitionNode,
     DocumentNode,
@@ -31,7 +31,7 @@ from graphql.language import (
     parse_const_value,
     Source,
 )
-from graphql.pyutils import inspect
+from graphql3.pyutils import inspect
 
 from ..fixtures import kitchen_sink_query  # noqa: F401
 from ..utils import dedent

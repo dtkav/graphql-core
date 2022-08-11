@@ -1,7 +1,7 @@
 from pytest import raises
 
-from graphql.error import GraphQLError
-from graphql.execution import ExecutionResult
+from graphql3.error import GraphQLError
+from graphql3.execution import ExecutionResult
 
 
 def describe_execution_result():

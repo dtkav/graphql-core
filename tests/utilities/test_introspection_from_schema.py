@@ -1,5 +1,5 @@
-from graphql.type import GraphQLSchema, GraphQLObjectType, GraphQLField, GraphQLString
-from graphql.utilities import (
+from graphql3.type import GraphQLSchema, GraphQLObjectType, GraphQLField, GraphQLString
+from graphql3.utilities import (
     build_client_schema,
     print_schema,
     introspection_from_schema,

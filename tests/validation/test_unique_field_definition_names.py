@@ -1,7 +1,7 @@
 from functools import partial
 
-from graphql.utilities import build_schema
-from graphql.validation.rules.unique_field_definition_names import (
+from graphql3.utilities import build_schema
+from graphql3.validation.rules.unique_field_definition_names import (
     UniqueFieldDefinitionNamesRule,
 )
 

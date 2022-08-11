@@ -1,4 +1,4 @@
-from graphql.pyutils import natural_comparison_key
+from graphql3.pyutils import natural_comparison_key
 
 key = natural_comparison_key
 

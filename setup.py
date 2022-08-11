@@ -1,14 +1,14 @@
 from re import search
 from setuptools import setup, find_packages
 
-with open("src/graphql/version.py") as version_file:
+with open("src/graphql3/version.py") as version_file:
     version = search('version = "(.*)"', version_file.read()).group(1)
 
 with open("README.md") as readme_file:
     readme = readme_file.read()
 
 setup(
-    name="graphql-core",
+    name="dtkav-graphql-core",
     version=version,
     description="GraphQL implementation for Python, a port of GraphQL.js,"
     " the JavaScript reference implementation for GraphQL.",
@@ -39,7 +39,7 @@ setup(
     packages=find_packages("src"),
     package_dir={"": "src"},
     # PEP-561: https://www.python.org/dev/peps/pep-0561/
-    package_data={"graphql": ["py.typed"]},
+    package_data={"graphql3": ["py.typed"]},
     include_package_data=True,
     zip_safe=False,
 )

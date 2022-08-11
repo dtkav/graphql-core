@@ -1,10 +1,10 @@
 from collections import ChainMap
 from typing import Any
 
-from graphql.error import GraphQLError
-from graphql.execution import execute_sync, ExecutionResult
-from graphql.language import parse, SourceLocation
-from graphql.type import (
+from graphql3.error import GraphQLError
+from graphql3.execution import execute_sync, ExecutionResult
+from graphql3.language import parse, SourceLocation
+from graphql3.type import (
     GraphQLArgument,
     GraphQLField,
     GraphQLInputField,

@@ -2,10 +2,10 @@ from typing import List, Optional, Tuple
 
 from pytest import raises
 
-from graphql.error import GraphQLSyntaxError
-from graphql.language import Lexer, Source, SourceLocation, Token, TokenKind
-from graphql.language.lexer import is_punctuator_token_kind
-from graphql.pyutils import inspect
+from graphql3.error import GraphQLSyntaxError
+from graphql3.language import Lexer, Source, SourceLocation, Token, TokenKind
+from graphql3.language.lexer import is_punctuator_token_kind
+from graphql3.pyutils import inspect
 
 from ..utils import dedent
 

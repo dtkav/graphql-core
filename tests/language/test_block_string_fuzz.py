@@ -1,7 +1,7 @@
 from pytest import mark
 
-from graphql.language import Source, Lexer, TokenKind
-from graphql.language.block_string import (
+from graphql3.language import Source, Lexer, TokenKind
+from graphql3.language.block_string import (
     print_block_string,
     is_printable_as_block_string,
 )

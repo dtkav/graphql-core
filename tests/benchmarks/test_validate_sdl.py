@@ -1,5 +1,5 @@
-from graphql import parse
-from graphql.validation.validate import validate_sdl
+from graphql3 import parse
+from graphql3.validation.validate import validate_sdl
 
 from ..fixtures import big_schema_sdl  # noqa: F401
 

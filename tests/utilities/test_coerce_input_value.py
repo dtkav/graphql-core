@@ -3,9 +3,9 @@ from typing import Any, List, NamedTuple, Union
 
 from pytest import raises
 
-from graphql.error import GraphQLError
-from graphql.pyutils import Undefined
-from graphql.type import (
+from graphql3.error import GraphQLError
+from graphql3.pyutils import Undefined
+from graphql3.type import (
     GraphQLEnumType,
     GraphQLFloat,
     GraphQLInputField,
@@ -16,7 +16,7 @@ from graphql.type import (
     GraphQLNonNull,
     GraphQLScalarType,
 )
-from graphql.utilities import coerce_input_value
+from graphql3.utilities import coerce_input_value
 
 
 class CoercedValueError(NamedTuple):

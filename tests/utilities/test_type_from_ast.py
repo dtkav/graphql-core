@@ -1,8 +1,8 @@
 from pytest import raises
 
-from graphql.language import parse_type, TypeNode
-from graphql.type import GraphQLList, GraphQLNonNull, GraphQLObjectType
-from graphql.utilities import type_from_ast
+from graphql3.language import parse_type, TypeNode
+from graphql3.type import GraphQLList, GraphQLNonNull, GraphQLObjectType
+from graphql3.utilities import type_from_ast
 
 from ..validation.harness import test_schema
 

@@ -3,11 +3,11 @@ from typing import cast, Any, Awaitable, Optional
 
 from pytest import mark, raises
 
-from graphql.error import GraphQLError
-from graphql.execution import execute, execute_sync
-from graphql.language import parse, FieldNode, OperationDefinitionNode
-from graphql.pyutils import inspect, Undefined
-from graphql.type import (
+from graphql3.error import GraphQLError
+from graphql3.execution import execute, execute_sync
+from graphql3.language import parse, FieldNode, OperationDefinitionNode
+from graphql3.pyutils import inspect, Undefined
+from graphql3.type import (
     GraphQLArgument,
     GraphQLBoolean,
     GraphQLField,

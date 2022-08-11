@@ -1,8 +1,8 @@
 from pytest import raises
 
-from graphql.error import GraphQLError
-from graphql.language import DirectiveLocation, DirectiveDefinitionNode, Node
-from graphql.type import GraphQLArgument, GraphQLDirective, GraphQLInt, GraphQLString
+from graphql3.error import GraphQLError
+from graphql3.language import DirectiveLocation, DirectiveDefinitionNode, Node
+from graphql3.type import GraphQLArgument, GraphQLDirective, GraphQLInt, GraphQLString
 
 
 def describe_type_system_directive():

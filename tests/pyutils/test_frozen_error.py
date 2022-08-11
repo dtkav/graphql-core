@@ -1,4 +1,4 @@
-from graphql.pyutils import FrozenError
+from graphql3.pyutils import FrozenError
 
 
 def describe_frozen_error():

@@ -3,7 +3,7 @@ from inspect import isawaitable
 
 from pytest import mark
 
-from graphql.pyutils import is_awaitable
+from graphql3.pyutils import is_awaitable
 
 
 def describe_is_awaitable():

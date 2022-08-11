@@ -1,5 +1,5 @@
 import asyncio
-from graphql import (
+from graphql3 import (
     GraphQLSchema,
     GraphQLObjectType,
     GraphQLField,

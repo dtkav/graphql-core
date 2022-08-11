@@ -78,7 +78,7 @@ def describe_usage():
         assert schema.pop(0) == sdl
         assert "enum Episode { NEWHOPE, EMPIRE, JEDI }" in sdl
         import_blocks = schema.pop(0)
-        assert "from graphql import" in import_blocks
+        assert "from graphql333 import" in import_blocks
         assert "GraphQLObjectType" in import_blocks
         scope: Scope = {}
         exec(import_blocks, scope)

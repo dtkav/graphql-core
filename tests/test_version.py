@@ -1,7 +1,7 @@
 import re
 
-import graphql
-from graphql.version import (
+import graphql3
+from graphql3.version import (
     VersionInfo,
     version,
     version_info,

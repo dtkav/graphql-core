@@ -1,4 +1,4 @@
-from graphql.utilities import build_schema, print_schema, lexicographic_sort_schema
+from graphql3.utilities import build_schema, print_schema, lexicographic_sort_schema
 
 from ..utils import dedent
 

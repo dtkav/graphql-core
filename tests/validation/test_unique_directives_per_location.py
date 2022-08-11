@@ -1,8 +1,8 @@
 from functools import partial
 
-from graphql.language import parse
-from graphql.utilities import extend_schema
-from graphql.validation import UniqueDirectivesPerLocationRule
+from graphql3.language import parse
+from graphql3.utilities import extend_schema
+from graphql3.validation import UniqueDirectivesPerLocationRule
 
 from .harness import assert_validation_errors, assert_sdl_validation_errors, test_schema
 

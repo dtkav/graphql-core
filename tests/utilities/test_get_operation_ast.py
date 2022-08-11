@@ -1,5 +1,5 @@
-from graphql.language import parse
-from graphql.utilities import get_operation_ast
+from graphql3.language import parse
+from graphql3.utilities import get_operation_ast
 
 
 def describe_get_operation_ast():

@@ -1,15 +1,15 @@
 from pytest import raises
 
-from graphql.error import GraphQLError
-from graphql.language import (
+from graphql3.error import GraphQLError
+from graphql3.language import (
     parse,
     DocumentNode,
     OperationDefinitionNode,
     OperationTypeDefinitionNode,
     SchemaDefinitionNode,
 )
-from graphql.type import GraphQLField, GraphQLObjectType, GraphQLSchema, GraphQLString
-from graphql.utilities import get_operation_root_type
+from graphql3.type import GraphQLField, GraphQLObjectType, GraphQLSchema, GraphQLString
+from graphql3.utilities import get_operation_root_type
 
 
 query_type = GraphQLObjectType("FooQuery", {"field": GraphQLField(GraphQLString)})

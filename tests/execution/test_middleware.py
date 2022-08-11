@@ -2,9 +2,9 @@ from typing import Awaitable
 
 from pytest import mark, raises
 
-from graphql.execution import MiddlewareManager, execute
-from graphql.language.parser import parse
-from graphql.type import GraphQLField, GraphQLObjectType, GraphQLSchema, GraphQLString
+from graphql3.execution import MiddlewareManager, execute
+from graphql3.language.parser import parse
+from graphql3.type import GraphQLField, GraphQLObjectType, GraphQLSchema, GraphQLString
 
 
 def describe_middleware():

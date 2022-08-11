@@ -1,6 +1,6 @@
-from graphql.execution import execute_sync, ExecutionResult
-from graphql.language import parse
-from graphql.type import GraphQLObjectType, GraphQLField, GraphQLSchema, GraphQLString
+from graphql3.execution import execute_sync, ExecutionResult
+from graphql3.language import parse
+from graphql3.type import GraphQLObjectType, GraphQLField, GraphQLSchema, GraphQLString
 
 schema = GraphQLSchema(
     GraphQLObjectType(
